@@ -18,7 +18,7 @@ Good luck!
 
 This screen recording previews the look and feel of a completed project that meets the MVP requirements for this project.
 
-<img src="https://github.com/LambdaSchool/Android_Sprint4Challenge_MyMovies/blob/master/myMoviesDemo_shorter.webm" width="300">
+<img src="animatedRatingBar_short.gif" width="300">
 
 ## Requirements
 
