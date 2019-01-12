@@ -35,6 +35,8 @@ The requirements for this project are as follows:
     2. The starting rating
     3. The empty symbol
     4. The filled symbol
+> Start building the view using static values for these fields.
+> To add multiple symbols, your view should extend a child of viewgroup, I like to use the frame layout. You will also have to define the symbols as their own views, I like defining them in their own layout and then inflating that layout multiple times
 
 3. The view must allow activity code to set or get the rating
 
