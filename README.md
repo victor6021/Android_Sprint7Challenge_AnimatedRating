@@ -20,6 +20,8 @@ This screen recording previews the look and feel of a completed project that mee
 
 <img src="animatedRatingBar_short.gif" width="300">
 
+This is an example showing how two views can look different when using different parameters.
+
 ## Requirements
 
 This project will have you creating an animatable rating bar which can accept custom attributes for a number of variables you'll have to manage.
