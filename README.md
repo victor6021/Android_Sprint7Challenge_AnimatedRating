@@ -1,4 +1,4 @@
-# Android_Sprint7Challenge_AnimatedRating
+# Android User Interface Sprint Challenge Animated Rating
 
 ### Instructions
 
