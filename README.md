@@ -18,13 +18,13 @@ Good luck!
 
 This screen recording previews the look and feel of a completed project that meets the MVP requirements for this project.
 
-<img src="animatedRatingBar_short.gif" width="300">
+<img src="animatedRatingBar_app.gif" width="300">
 
-This is an example showing how two views can look different when using different parameters.
+This is a recording demonstrating the base functionality of the app. Use what we've learned to make it look better.
 
 ## Requirements
 
-This project will have you creating an animatable rating bar which can accept custom attributes for a number of variables you'll have to manage.
+This project will have you creating an animatable rating bar which can accept custom attributes for a number of variables you'll have to manage. You will also create a fragment displayed as a dialog fragmet to allow users to add entries and rate them.
 
 The requirements for this project are as follows:
 
@@ -33,12 +33,14 @@ The requirements for this project are as follows:
 2. The view must allow for attributes to be set:
     1. The maximum rating (number of symbols)
     2. The starting rating
-    3. The empty symbol
-    4. The filled symbol
+    
 > Start building the view using static values for these fields.
 > To add multiple symbols, your view should extend a child of viewgroup, I like to use the frame layout. You will also have to define the symbols as their own views, I like defining them in their own layout and then inflating that layout multiple times
 
 3. The view must allow activity code to set or get the rating
 
-4. The view must handle AnimatedVectorDrawable images and animate them when the rating is changed.
-> Be sure to check if each drawable implements `Animatable` before trying to animate or your app will crash. 
+4. The view must use AnimatedVectorDrawable images and animate them when the rating is changed.
+> Be sure to check if each drawable implements `Animatable` using the `is` keyword before trying to animate or your app will crash. 
+
+5. The view must be used in a fragment to allow users to add rated items to a list.
+> This can be either a dialog fragment or a full fragment
