@@ -4,7 +4,7 @@
 
 **Please read this entire README to make sure you understand what is expected of you before you begin.**
 
-This sprint challenge is designed to ensure that you are competent with the concepts taught throughout Sprint 7.
+This sprint challenge is designed to ensure that you are competent with the concepts taught throughout this sprint.
 
 In your solution, it is especially important that you follow best practices such as MVC and good, consistent code style. You will be scored on these aspects as well as the project MVP (minimum viable product) requirements below.
 
@@ -39,8 +39,17 @@ The requirements for this project are as follows:
 
 3. The view must allow activity code to set or get the rating
 
-4. The view must use AnimatedVectorDrawable images and animate them when the rating is changed.
-> Be sure to check if each drawable implements `Animatable` using the `is` keyword before trying to animate or your app will crash. 
+4. The view must use AnimatedVectorDrawable images and animate them when the rating is changed. (BONUS: allow images to be set in the xml)
+> You'll need to create an animation for an empty star that is filled and a full start that is emptied
+> Remember, if you start the animation when the layout is initialized, you will only see the final product and not the naimation transition
 
-5. The view must be used in a fragment to allow users to add rated items to a list.
-> This can be either a dialog fragment or a full fragment
+5. The view must be used in a fragment to allow users to add rated items to a list. This list will be displayed in a simple layout
+> you can just add views programmatically to a linear layout for the list BONUS: implement a recycler view
+> This can be either a dialog fragment or a full fragment (BONUS: for full fragment for the edit view and for the list view)
+
+6. After the rating item is added the the list, the user will be able to select it and alter the rating
+> Pass the data (name and rating) into the dialog fragment using a bundle
+> It is easiest to remove the item from the list by calling `removeView` on the parent and passing in the view object to be removed. ANd then add the view like you did before
+
+Challenge:
+Completing all the requirements correctly and 2 bonus requirements can qualify you for a 3. Bonus requirements do not replace the normal requirements.
