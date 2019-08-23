@@ -18,7 +18,7 @@ Good luck!
 
 This screen recording previews the look and feel of a completed project that meets the MVP requirements for this project.
 
-<img src="animatedRatingBar_app.gif" width="300">
+<img src="animatedRatingBar_app_new.gif" width="300">
 
 This is a recording demonstrating the base functionality of the app. Use what we've learned to make it look better.
 
