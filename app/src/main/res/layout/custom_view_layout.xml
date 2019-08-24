@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"/>
 
 
-    <com.example.sprint3challenge.CustomView
+    <com.example.sprint3challenge.ui.CustomView
         android:id="@+id/custom_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
